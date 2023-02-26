@@ -12,13 +12,6 @@ BEWERTUNG:
 // Sind die Strings nicht gleich lang, soll der Rest des längeren ans
 // Ende gehängt werden.
 func Zip(s1, s2 string) string {
-	// BEGIN-SOLUTION
-	if len(s1) == 0 {
-		return s2
-	}
-	if len(s2) == 0 {
-		return s1
-	}
-	return s1[:1] + s2[:1] + Zip(s1[1:], s2[1:])
-	// END-SOLUTION
+	// TODO
+	return ""
 }

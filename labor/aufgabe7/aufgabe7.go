@@ -11,15 +11,7 @@ BEWERTUNG:
 // in l2 vorhanden sind.
 // Hinweis: Gehen Sie davon aus, dass jedes Element pro Liste höchstens einmal vorkommt.
 func Intersect(l1, l2 []int) []int {
-	// BEGIN-SOLUTION
 	result := []int{}
-	for _, el1 := range l1 {
-		for _, el2 := range l2 {
-			if el1 == el2 {
-				result = append(result, el1)
-			}
-		}
-	}
+	// TODO
 	return result
-	// END-SOLUTION
 }
